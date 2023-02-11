@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 120px;
+    background: black;
+}
+
+main{
+    background: #2F2FA2;
+}
+.con{
+
+}
+
+
+
+.mainuser-form{
+    display: none;
+
+
+
+}
+
+.mainuser-form_show{
+    display: flex;
+
+}
+.mainuser-form_input{
+
+    margin-left: 300px;
+    margin-top: 500px;
+    color: white;
+    background: black;
+
+
+
+
+    width: 30vw;
+    height: 30px;
+    border-radius: 15px;
+
+}
+
+.mainuser-form_input:hover{
+    background: white;
+    color: black;
+
+}
+
+.mainuser-form_closed{
+
+    border-radius: 5px;
+    color: white;
+    background:black;
+
+    background-size: cover;
+    width: 70px;
+    height: 20px;
+
+}
+
+.creat_user{
+    display: none;
+}
+
+.creat_user-show{
+    display: flex;
+}
+
+.creat_user-closed{
+    margin-top:260px;
+    margin-left: 160px;
+    border-radius: 20px;
+    width: 60px;
+}
+
+.creat_user-closed:hover{
+    background: black;
+    color: white;
+}
+
+.creat_user-div{
+
+    margin-left: 550px;
+    margin-top: 30px;
+    width: 25vw;
+    height: 400px;
+    background: black;
+    box-shadow: 0.5px 0.5px 2px 2px whitesmoke;
+    border-radius: 30px;
+
+}
+
+
+
+
+.mainuser-form_closed:hover{
+    background: white;
+    color: black;
+
+}
+
+.creat_user-input{
+    background: white;
+    width: 25vw;
+    height: 70px;
+}
+
+.creat_user-input:hover{
+    background: black;
+    color: white;
+}
+
+
+.creat_user-button{
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 330px;
+    width: 5vw;
+    height: 20px;
+    color: black;
+}
+
+.creat_user-button:hover{
+    background: black;
+    color: white;
+}
+
+.alert{
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    background-color: black;
+    z-index: 4;
+}
+
+
+.mainuser-form_div{
+    overflow-wrap:break-word;
+    overflow: auto;
+    position: absolute;
+    /*background: url("./img/1614268077_12-p-chernii-graficheskii-fon-13.jpg") whitesmoke  no-repeat;*/
+    background-size: cover;
+    background: white;
+
+    margin-left: 400px;
+    margin-top: -110px;
+    width: 60vw;
+    height: 600px;
+
+}
+
+p{
+    display: none;
+    color: #0f33ff;
+}
+
+.push{
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 500px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background: url("./img/pngwing.com (7).png") no-repeat;
+    background-size: cover;
+}
+
+.flex4{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.iconmassage{
+    z-index: 1;
+    position: absolute;
+    margin-left: -170px;
+    border-radius: 14px;
+    margin-top: -30px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.massageuser{
+    position: absolute;
+    background: white;
+    width: 370px;
+    height: 60px;
+    margin-left: 0px;
+}
+
+.massageuser:active{
+    background: #17161a;
+}
+
+.chats{
+
+    margin-top: 20px;
+    margin-left: 16px;
+    background: black;
+    width: 370px;
+    height: 479px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px 2px 7px whitesmoke;
+}
+
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#preloader {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.hed{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.poick{
+
+    width: 10vw;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+    background: #17161a;
+    color: white;
+}
+
+
+.poick2{
+    position: relative;
+}
+
+.chat{
+
+    position: relative;
+    background: #17161a;
+    width: 50vw;
+    height: 600px;
+}
+
+.flex6{
+    display: flex;
+    flex-direction: row;
+    gap: -40px;
+    margin-top: -40px;
+}
+
+.usermore{
+    position: absolute;
+    background-size: cover;
+    background: url("./img/pngwing.com (10).png") no-repeat whitesmoke;
+    border-radius: 30px;
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.massage{
+    position: relative;
+
+    background: #17161a;
+
+    height: 600px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -190px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo1{
+    width: 180px;
+    height: 50px;
+    margin-top: -18px;
+}
+
+
+.colocal{
+    background: url("./img/pngwing.com (1).png") no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin-left: 700px;
+    margin-top: -95px;
+    display: flex;
+}
+
+* {box-sizing: border-box;}
+body{margin: 0;}
+div {padding: 30px 0}
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.d1 {}
+.d1 input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: #F9F0DA;
+    color: black;
+}
+.d1 button {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: #17161a;
+
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.d1 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.d2 {background: #DABB52;}
+.d2 input, .d2 button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.d2 input {
+    width: 100%;
+    height: 42px;
+    background: #F9F0DA;
+    padding-left: 15px;
+}
+.d2 button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #F15B42;
+    cursor: pointer;
+}
+.d2 button:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    color: #F9F0DA;
+    font-size: 20px;
+    font-weight: bold;
+}
+.d3 {background: #F9F0DA;}
+.d3 form {
+    background: #17161a;
+
+}
+.d3 input, .d3 button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.d3 input {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+}
+.d3 button {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.d3 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.d4 {background: #F15B42;}
+.d4 form {
+    background: #F9F0DA;
+    border-bottom: 4px solid #be290e;
+}
+.d4 input, .d4 button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.d4 input {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+}
+.d4 button {
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.d4 button:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #be290e;
+}
+.d5 {background: #683B4D;}
+.d5 input, .d5 button {
+    outline: none;
+    background: transparent;
+}
+.d5 input {
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+    border: 3px solid #F9F0DA;
+}
+.d5 button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.d5 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.d5 input:focus {
+    border-color: #311c24
+}
+.d6 {background: #B46381;}
+.d6 form {
+    height: 42px;
+}
+.d6 input {
+    height: 100%;
+    width: 0;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.d6 input:focus {
+    width: 300px;
+    z-index: 1;
+    border-bottom: 2px solid #F9F0DA;
+}
+.d6 button {
+    background: #683B4D;
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.d6 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+.d7 {background: #17161a;}
+.d7:after {content:""; clear:both; display:table}
+.d7 form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+.d7 input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+.d7 input:focus {
+    width: 300px;
+}
+.d7 button {
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+.d7 button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 300px;
+    background: black;
+}
+
+
+@media (min-width: 320px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1600px) {
+}
+
+@media screen {
+}
+
+@media screen {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 667px) {
+}
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1980px) {
+}
